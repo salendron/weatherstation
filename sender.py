@@ -1,6 +1,6 @@
 from weather_data import WeatherData, WeatherDataMessage
 from janus.janus import JsonApiMessage
-import json, urllib2, serial
+import json, urllib2, serial, time
 from config import APIKEY
 
 
