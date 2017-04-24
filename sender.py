@@ -36,7 +36,6 @@ try:
             if checkData(readValue):
                 print "ok"
                 weather_data = WeatherData(readValue["hPa"], readValue["temp"], readValue["humidity"])
-                recorderLog(0,"Data written.")
                 success = True
 
         except Exception, e:
